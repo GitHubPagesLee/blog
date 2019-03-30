@@ -1,7 +1,3 @@
-/**
- * Created by RedSpite on 2016/9/27.
- */
-
 
 //背景随机
 $(function() {

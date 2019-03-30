@@ -1,7 +1,6 @@
 #loading{
     width: 100%;
     height: 20vh;
-    /* border: 1px solid red; */
     margin-top: 10rem;
 }
 #loading ul{
@@ -12,8 +11,4 @@
 #loading ul li{
     margin: 5vh auto;
 }
-#loading ul li a img{
-    width: 4rem;
-    height: 4rem;
-    border-radius: 50%;
-}
+

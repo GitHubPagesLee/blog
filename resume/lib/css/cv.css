@@ -151,6 +151,37 @@ body {
     opacity: 0;
 }
 
+@keyframes fadescale{
+    0%{
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50%{
+        opacity: 1;
+        transform: scale(1.1);
+    }
+
+    100%{
+        opacity: 0.5;
+        transform: scale(1);
+    }
+}
+@-webkit-keyframes fadescale{
+    0%{
+        opacity: 1;
+        -webkit-transform: scale(1);
+    }
+    50%{
+        opacity: 1;
+        -webkit-transform: scale(1.1);
+    }
+    100%{
+        opacity: 0.5;
+        -webkit-transform: scale(1);
+    }
+}
+
 .bg-img li:nth-child(1) {
     background: url(../image/bg1.jpg) no-repeat center;
     background-size: cover;
